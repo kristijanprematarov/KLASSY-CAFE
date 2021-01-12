@@ -1,0 +1,571 @@
+/* ---------------------------------GOOGLE FONTS-------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* roboto-300 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v20-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin-300.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/roboto-v20-latin-300.svg#Roboto")
+      format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v20-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-v20-latin-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v20-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/roboto-v20-latin-500.svg#Roboto")
+      format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v20-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/roboto-v20-latin-700.svg#Roboto")
+      format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-900 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v20-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin-900.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin-900.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-900.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/roboto-v20-latin-900.svg#Roboto")
+      format("svg");
+  /* Legacy iOS */
+}
+
+/* ---------------------------------THE CSS STYLING-------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20rem;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+/* ************************  NAVBAR  ************************** */
+.header {
+  min-height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.first-content {
+  padding-top: 100px;
+}
+
+.navbar {
+  max-width: 1100px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #dc3545 !important;
+  transition: 0.3s;
+  background-color: rgb(238, 238, 238);
+}
+
+.dropdown-item {
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+/* DROPDOWN TOGGLE CARRET */
+.dropdown-toggle::after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 0.5rem;
+  color: black;
+  content: "\f078";
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+  vertical-align: 0.2em;
+  margin-left: 0.3rem;
+}
+
+/* END */
+
+.dropdown .dropdown-item:hover {
+  color: #dc3545 !important;
+  transition: 0.3s;
+  background-color: rgb(238, 238, 238);
+}
+
+.dropdown:hover .dropdown-toggle {
+  color: #dc3545 !important;
+}
+
+/* ************************  FIRST CONTENT  ************************** */
+.leftContent {
+  padding-top: 60%;
+}
+
+.leftContent {
+  background-image: url(../images/champagne-5374793_640.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.insideContent {
+  /* PERFECT CENTERING */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  margin-left: 5rem;
+}
+
+.reservationButton a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.insideContent h4 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5rem;
+}
+
+/* ************************  ABOUT SECTION  ************************** */
+
+.about-section {
+  margin-top: 6rem;
+}
+
+.aboutUsHeader::before {
+  content: "";
+  width: 35px;
+  border-top: 1px solid #d9534f;
+  position: absolute;
+  top: 8px;
+  left: 15px;
+}
+
+/* ************************  MENU SECTION  ************************** */
+
+.menu-section {
+  background-color: #fbf1f1 !important;
+  margin-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.menuHeader::before {
+  content: "";
+  width: 35px;
+  border-top: 1px solid #d9534f;
+  position: absolute;
+  top: 88px;
+  left: 15px;
+}
+
+.menuHeading {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.carousel-second-inner {
+  height: 22.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body-container {
+  position: absolute;
+  bottom: -4rem;
+  width: 100%;
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  transition: 0.5s;
+}
+
+.card:hover .card-body-container {
+  bottom: 2.4rem;
+  transition: 0.5s ease-out;
+}
+
+.price-positioning {
+  top: 52px;
+  left: 45px;
+  transform: translate(-50%, -50%) scale(1.5) !important;
+}
+
+.control-container-left {
+  width: 30px;
+  height: 40px;
+  color: #f33523 !important;
+  position: unset;
+}
+
+.control-container-left:hover,
+.control-container-right:hover {
+  color: #dc3545;
+}
+
+.control-container-right {
+  width: 30px;
+  height: 40px;
+  color: #f33523 !important;
+  position: unset;
+}
+
+/* ************************  OUR CHEFS SECTION  ************************** */
+
+.chefs-section {
+  margin-top: 6rem;
+}
+
+.chefs-section .img-fluid {
+  padding: 0.5rem;
+}
+
+.chefs-section .card:hover {
+  border-color: #dc3545 !important;
+}
+
+.socialNetwork-icons {
+  position: absolute;
+  z-index: 11;
+  top: 30%;
+  width: 100%;
+}
+
+.socialNetwork-icons a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  visibility: hidden;
+}
+
+.socialNetwork-icons a:hover {
+  background-color: #dc3545;
+  color: #fff;
+  text-decoration: none;
+}
+
+.chefs-section .card:hover .grayOverlay {
+  visibility: visible;
+  opacity: 0.5;
+}
+
+.chefs-section .card:hover .socialNetwork-icons a {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* ************************  RESERVATION SECTION  ************************** */
+
+.reservation-section {
+  margin-top: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  background-image: url(../images/reservations-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reservation-section .theHeading {
+  padding-top: 5rem !important;
+}
+
+.reservation-section h6 {
+  letter-spacing: 0.3rem;
+}
+
+.reservation-section .theHeading::before {
+  content: "";
+  width: 35px;
+  border-top: 1px solid white;
+  position: absolute;
+  top: 88px;
+  left: 15px;
+}
+
+.reservation-section .form-control:not(textarea) {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 70px;
+}
+
+.reservation-section textarea {
+  resize: none;
+}
+
+.phone a:hover,
+.email a:hover {
+  text-decoration: none;
+  color: red !important;
+  transition: 0.3s;
+}
+
+/* ************************  FOOD MENU SECTION  ************************** */
+
+.food-menu-section {
+  margin-top: 6rem;
+  padding-bottom: 6rem !important;
+}
+
+.price h6 {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dc3545;
+}
+
+.meals-left .img-fluid,
+.meals-right .img-fluid {
+  width: 100px;
+  height: 100px;
+}
+
+/* ************************  FOOTER  ************************** */
+
+.footer {
+  padding: 4rem;
+  height: 20rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.socialNetwork-icons-footer a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #f33523;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.socialNetwork-icons-footer a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width:768px) {
+  .carousel-second-inner {
+    max-width: 530px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+  }
+
+  .navbar .dropdown-menu.fade-down {
+    top: 80%;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+  }
+
+  .navbar .dropdown-menu.fade-up {
+    top: 180%;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    transition: 1s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: rotateX(0deg);
+  }
+
+  .dropdown-item {
+    background-color: #f7f7f7;
+  }
+
+  .dropdown-toggle,
+  .dropdown-item:last-child {
+    border-bottom: 0 !important;
+  }
+
+  .dropdown .dropdown-item:hover {
+    color: #d9534f !important;
+    transition: 0.2s;
+    padding-left: 2rem;
+    background-color: rgb(255, 255, 255) !important;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #d9534f !important;
+    transition: 0.3s;
+    background-color: white;
+  }
+
+  .nav-link {
+    border-top: 0 !important;
+  }
+
+  .carousel-second-inner {
+    max-width: 1410px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .insideContent {
+    margin-left: 0;
+  }
+
+  .footer {
+    height: 10rem;
+  }
+
+  body {
+    margin-bottom: 10rem;
+  }
+
+  .socialNetwork-icons-footer a {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/*  */
+
+/* medium - display 2  */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(50%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-50%);
+  }
+}
+
+/* large - display 3 */
+@media (min-width: 992px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33%);
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}

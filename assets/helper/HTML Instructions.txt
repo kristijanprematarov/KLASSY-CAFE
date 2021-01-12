@@ -1,0 +1,23 @@
+*** Include Font-Awesome in the Project Website
+https://fontawesome.com/v4.7.0/get-started/
+
+
+*** Enter this code inside your HTML for the icon to show
+
+*** Phone Icon
+<i class="fa fa-phone"></i>
+
+*** Email Icon
+<i class="fa fa-envelope"></i>
+
+*** Facebook Icon
+<i class="fa fa-facebook"></i>
+
+*** Twitter Icon
+<i class="fa fa-twitter"></i>
+
+*** LinkedIn Icon
+<i class="fa fa-linkedin"></i>
+
+*** Instagram Icon
+<i class="fa fa-instagram"></i>
